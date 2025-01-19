@@ -35,7 +35,7 @@ function renderCart(products) {
   let th = document.createElement("th");
   let td = document.createElement("td");
   th.colSpan = 3;
-  th.innerText = "Total";
+  th.innerText = "Order Total:";
   td.innerText = cartTotal(products).toFixed(2);
   shoppingCart.appendChild(tfoot);
   tfoot.appendChild(tr);
